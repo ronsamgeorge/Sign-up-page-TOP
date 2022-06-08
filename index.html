@@ -28,13 +28,14 @@
         <div class="content">
             <div class="form-intro cont">
                 <p class="top-intro-text">This is not a real online service! You know you need something like this to help you realize your dreams. Sign up now to get started!</p>
-                <p class="top-intro-text">You know <em>what</em> to do</p>
+                <p class="top-intro-text">You know <em>what </em> to do</p>
             </div>
 
             <div class="form-content cont">
                 <form>
-                    <legend class="form-legend">Let's Do this</legend>
+                    
                     <div class="form-wrapper">
+                        <legend class="form-legend">Let's Do this</legend>
                         <div class="form-wrapper-row">
                             <div class="input-wrapper">
                                 <label for="first-name">First Name</label>
@@ -43,7 +44,7 @@
         
                             <div class="input-wrapper">
                                 <label for="first-name">Last Name</label>
-                                <input type="text" name="first-name" id="f-name">
+                                <input type="text" name="last-name" id="l-name">
                             </div>
     
                             
@@ -52,7 +53,7 @@
                         <div class="form-wrapper-row">
                             <div class="input-wrapper">
                                 <label for="first-name">Email</label>
-                                <input type="text" name="first-name" id="f-name">
+                                <input type="email" name="email" id="e-name">
                             </div>
 
                             <div class="input-wrapper">
@@ -61,28 +62,31 @@
                             </div>
                         </div>
 
-                        <div class="form-wrapper-row">
+                        <div class="form-wrapper-row last-row">
                             <div class="input-wrapper">
                                 <label for="first-name">PassWord</label>
-                                <input type="text" name="first-name" id="f-name">
+                                <input type="password" name="password" id="pwd">
+                                <div class="error-message"></div>
                             </div>
 
                             <div class="input-wrapper">
-                                <label for="first-name">Confirm PassWord</label>
-                                <input type="text" name="first-name" id="f-name">
+                                <label for="confirm-password">Confirm PassWord</label>
+                                <input type="password" name="confirm-password" id="con-pwd">
+                                <div class="error-message"></div>
                             </div>
                         </div>
 
                         <div class="button-div">
-                            
+                            <input type="submit" value="Submit Form">
                         </div>
                       
                     </div>
-                   
-                    
                 </form>
             </div>
-            <div class="form-footer cont"></div>
+
+            <div class="form-footer cont">
+                Already have an account? Log In
+            </div>
         </div>
 </div>
 

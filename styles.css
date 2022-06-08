@@ -14,10 +14,10 @@ body{
     display: flex;
 }
 
-.cont{
+/* .cont{
     border : 2px solid black;
 
-}
+} */
 
 .logo{
     flex : 1; 
@@ -62,7 +62,7 @@ body{
 .logo-name-text{
     font-size: 100px;
     margin : 0;
-    color: white;
+    /* color: white; */
 }
 
 
@@ -89,11 +89,8 @@ body{
     padding : 32px 64px;
     
     margin : 8px;
-    /* border : 2px solid black; */
-    
     width : 70%;
 
-    font-weight: bold;
 }
 
 
@@ -114,10 +111,23 @@ body{
 .input-wrapper{
     display: flex ;
     flex-direction: column;
+    flex: 1;    
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="email"],
+input[type="password"] {
     width: 400px;
+}
+
+.last-row{
+    box-shadow: 5px 10px 18px #888888;
+    padding-bottom : 16px;
+}
+
+.button-div{
+    background-color: #dce1e8;
+    margin: 0;
 }
 
 
