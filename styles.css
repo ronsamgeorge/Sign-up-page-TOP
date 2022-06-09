@@ -62,7 +62,7 @@ body{
 .logo-name-text{
     font-size: 100px;
     margin : 0;
-    /* color: white; */
+    color: white;
 }
 
 
@@ -72,12 +72,14 @@ body{
 
     display: flex;
     flex-direction: column;
+    
+ 
 
 }
 
 .cont{
     flex : 1;
-}
+} 
 
 .form-intro,
 .form-footer{
@@ -85,49 +87,107 @@ body{
 }
 
 .top-intro-text{
-    font-size: 35px;
-    padding : 32px 64px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: calibri;
+    padding : 24px 0px;
     
-    margin : 8px;
+    margin : 0px;
+    margin-top: 8px;
+    margin-left : 32px;
     width : 70%;
 
 }
 
+.form{
+    background-color: #dce1e8;
+}
 
 .form-wrapper{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 32px;
+
+    background-color:#dce1e8 ;
+}
+
+.text-inputs{
+
+    box-shadow: 5px 10px 18px #888888;
+    padding-bottom : 16px;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    padding-top: 16px;
+    padding-bottom: 24px;
+
 }
 
 .form-wrapper-row{
+
+    flex : 1;
+
     display : flex;
-    gap : 16px;  
+    column-gap : 64px;  
+    row-gap: 16px;
     flex-wrap: wrap;
 
+    margin-left : 32px;
+
+}
+
+legend{
+    margin-left : 32px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .input-wrapper{
     display: flex ;
     flex-direction: column;
-    flex: 1;    
+    /* flex: 1;     */
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    width: 400px;
+    width: 250px;
+    height: 30px;
+    border : 2px solid #dce1e8;
+    background-color: azure;
+    border-radius: 10%;
 }
 
-.last-row{
-    box-shadow: 5px 10px 18px #888888;
-    padding-bottom : 16px;
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus{
+    outline: none !important;
+    border: solid 2px  lightskyblue;
 }
+
+
 
 .button-div{
     background-color: #dce1e8;
     margin: 0;
+    /* padding : 8px; */
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+input[type="submit"]{
+    margin-left : 32px;
+    padding: 8px 16px;
+
+    background-color: #596D48;
+    color: whitesmoke;
+
+    font-family: Calibri;
+    font-size: large;
 }
 
 
